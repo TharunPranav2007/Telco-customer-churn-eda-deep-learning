@@ -1,0 +1,70 @@
+TELCO CUSTOMER CHURN - DATASET SUMMARY
+=============================================
+
+Dataset rows: 7043
+Dataset columns: 21
+
+Column names:
+customerID, gender, SeniorCitizen, Partner, Dependents, tenure, PhoneService, MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, PaperlessBilling, PaymentMethod, MonthlyCharges, TotalCharges, Churn
+
+Data types:
+customerID           object
+gender               object
+SeniorCitizen         int64
+Partner              object
+Dependents           object
+tenure                int64
+PhoneService         object
+MultipleLines        object
+InternetService      object
+OnlineSecurity       object
+OnlineBackup         object
+DeviceProtection     object
+TechSupport          object
+StreamingTV          object
+StreamingMovies      object
+Contract             object
+PaperlessBilling     object
+PaymentMethod        object
+MonthlyCharges      float64
+TotalCharges        float64
+Churn                object
+
+Missing values:
+customerID           0
+gender               0
+SeniorCitizen        0
+Partner              0
+Dependents           0
+tenure               0
+PhoneService         0
+MultipleLines        0
+InternetService      0
+OnlineSecurity       0
+OnlineBackup         0
+DeviceProtection     0
+TechSupport          0
+StreamingTV          0
+StreamingMovies      0
+Contract             0
+PaperlessBilling     0
+PaymentMethod        0
+MonthlyCharges       0
+TotalCharges        11
+Churn                0
+
+Duplicate rows: 0
+
+Descriptive statistics:
+        customerID gender  SeniorCitizen Partner Dependents       tenure PhoneService MultipleLines InternetService OnlineSecurity OnlineBackup DeviceProtection TechSupport StreamingTV StreamingMovies        Contract PaperlessBilling     PaymentMethod  MonthlyCharges  TotalCharges Churn
+count         7043   7043    7043.000000    7043       7043  7043.000000         7043          7043            7043           7043         7043             7043        7043        7043            7043            7043             7043              7043     7043.000000   7032.000000  7043
+unique        7043      2            NaN       2          2          NaN            2             3               3              3            3                3           3           3               3               3                2                 4             NaN           NaN     2
+top     3186-AJIEK   Male            NaN      No         No          NaN          Yes            No     Fiber optic             No           No               No          No          No              No  Month-to-month              Yes  Electronic check             NaN           NaN    No
+freq             1   3555            NaN    3641       4933          NaN         6361          3390            3096           3498         3088             3095        3473        2810            2785            3875             4171              2365             NaN           NaN  5174
+mean           NaN    NaN       0.162147     NaN        NaN    32.371149          NaN           NaN             NaN            NaN          NaN              NaN         NaN         NaN             NaN             NaN              NaN               NaN       64.761692   2283.300441   NaN
+std            NaN    NaN       0.368612     NaN        NaN    24.559481          NaN           NaN             NaN            NaN          NaN              NaN         NaN         NaN             NaN             NaN              NaN               NaN       30.090047   2266.771362   NaN
+min            NaN    NaN       0.000000     NaN        NaN     0.000000          NaN           NaN             NaN            NaN          NaN              NaN         NaN         NaN             NaN             NaN              NaN               NaN       18.250000     18.800000   NaN
+25%            NaN    NaN       0.000000     NaN        NaN     9.000000          NaN           NaN             NaN            NaN          NaN              NaN         NaN         NaN             NaN             NaN              NaN               NaN       35.500000    401.450000   NaN
+50%            NaN    NaN       0.000000     NaN        NaN    29.000000          NaN           NaN             NaN            NaN          NaN              NaN         NaN         NaN             NaN             NaN              NaN               NaN       70.350000   1397.475000   NaN
+75%            NaN    NaN       0.000000     NaN        NaN    55.000000          NaN           NaN             NaN            NaN          NaN              NaN         NaN         NaN             NaN             NaN              NaN               NaN       89.850000   3794.737500   NaN
+max            NaN    NaN       1.000000     NaN        NaN    72.000000          NaN           NaN             NaN            NaN          NaN              NaN         NaN         NaN             NaN             NaN              NaN               NaN      118.750000   8684.800000   NaN
